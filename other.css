@@ -1,0 +1,176 @@
+    html{
+        background-color: #0C0E18;
+        padding: 0;
+    }
+*{
+    font-family: "Montserrat", sans-serif ;
+    margin: 0;
+    padding: 0;
+    padding: 0 10px;
+
+    color: #f0f8ff;
+
+}
+.content{
+padding-left: 260px;
+}
+.main{
+    background-color: #0C0E18;
+    padding-right: 10px;
+}
+.header-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-top: 80px;
+}
+
+.header-value ol {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 300px;
+    font-size:20px;
+}
+.header-value img{
+    padding-left: 270px;
+}
+.type-sport{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.type-sport img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.disciplines-about li{
+    font-size: 24px;
+    padding-top: 27px;
+}
+
+
+.content-cost{
+    padding: 70px 0 0 260px;
+
+}
+.card-item{
+    border: 2px solid white;
+    width: 370px;
+    height: 170px;
+    border-radius: 15px;
+    padding: 12px 0 0 10px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+.main-content{
+    padding-left: 260px;
+}
+.content-container {
+    font-size: 24px;
+}
+.content-container h2{
+    font-size: 48px;
+    padding: 110px 0 0 0;
+}
+.content-container li{
+    padding-top: 25px;
+}
+.content-container ol{
+    padding: 30px 0 0 30px;
+}
+
+.content-container p {
+    padding: 30px 0 0 0 ;
+}
+.photo-gallery{
+    padding: 90px 0 0 0px;
+}
+.photo-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cost-train h4{
+    font-size: 30px;
+}
+.cost-train p {
+    font-size: 24px;
+}
+.card-items{    
+    border: 2px solid white;
+    width: 340px;
+    height: 170px;
+    border-radius: 15px;
+    padding: 12px 0 0 10px;
+    margin-top: 60px;
+}
+.card-seller{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+} */
+
+
+
+/* Цена*/
+
+
+.content-costs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    padding-left: 250px;
+    background-color: #07070B;
+    max-width: 100%;
+    height: 420px;
+}
+.footer img{
+    padding-top: 3%;
+}
+.footer p{
+    padding-top: 3%;
+    padding-left: 600px;
+    font-size: 20px;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+}   
+.footer-content p{
+    color:#ACACAC ;
+}
+
+.footer-li a{
+    text-decoration: none;
+    color: #ACACAC;
+    
+}
+.footer-li li{
+    list-style-type: none;
+    font-size: 20px;
+    color: #ACACAC;
+}
+.footer-li{
+    padding-left: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 40px;
+}
+.footer-li p{
+    color: #ACACAC;
+    padding: 0 0 0 350px;
+}
+.firstElement{
+    padding-top: 20px;
+}

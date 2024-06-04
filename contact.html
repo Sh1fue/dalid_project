@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-image">
+        <div class="header-value">
+            <a href="index.html">
+            <img src="./assets/Logo.png">
+        </a>
+            <ol>
+                <li> <a href="disciplines.html">Дисциплины</a></li>
+                <li><a href="cost.html">Цены</a></li>
+                <li><a href="raspicanie.html">Расписание</a></li>
+                <li><a href="aboutUs.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ol>
+        </div>  
+    <div class="main-content">
+        <div class="first-container">
+            
+        <h4>Наши контакты</h4>
+        <h2>Школа</h2>
+            <p> Ростов-на-Дону ул.Тургеневская 10/6, 4 этаж</p>
+
+        <h2>Телефон</h2>
+            <p> +7-952-568-13-13</p>
+
+        <h2>Почта</h2>
+            <p>punch@gmail.com</p>
+
+        <h2>Время работы</h2>
+            <p>Пн-cб - 09:00-18:00<br>
+                Вс - выходной
+            </p>
+        </div>
+<div class="first-container">
+            <div id="map-test" class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4122420a59fb1c525ef773ac52a97b2432dfa6c553f4bc529c196fd3a7318bc8&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    </div>
+    </div>
+    
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <h2>Свяжитесь с нами</h2>
+        <form action="mail.php" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Отправить">
+        </form>
+    </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>    
+<div class="footer">
+    <div class="footer-content">
+
+    
+    <img src="./assets/footerLogo.png">
+    <p>Спортивная школа единоборств</p>
+        </div>
+
+        <div class="footer-li">
+            <ol>
+                <li> <a href="disciplines.html">Дисциплины</a></li>
+                <li class="firstElement"> <a href="/disciplines/box.html">Бокс</a></li>
+                <li><a href="/disciplines/taibox.html">Тайский бокс</a></li>
+                <li><a href="/disciplines/cambo.html">Самбо</a></li>
+                <li><a href="/disciplines/rykopashka.html">Рукопашный бой</a></li>
+                
+            </ol>
+            <ol>
+                <li><a href="cost.html"> Цены</a></li>
+                <li class="firstElement">Основные цены</li>
+                <li>Акции</li>
+            </ol>
+            <ol>
+                <li><a href="raspicanie.html"> Расписание</a></li>
+                <li class="firstElement">Тренировки</li>
+                <li>Зал</li>
+            </ol>
+            <ol>
+                <li><a href="aboutUs.html"> О нас</a></li>
+                <li class="firstElement">Инфо</li>
+                <li>Зал</li>
+            </ol>
+            <ol>
+                <li><a href="contact.html"> Контакты</a></li>
+                <li class="firstElement">+7-952-568-13-13</li>
+                <li>punch@mail.com</li>
+            </ol>
+            <p>© 2024 Cпортивная школа единоборств</p>        
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<style>
+html {
+    background-color: #0C0E18;
+    padding-left: 0;
+}
+body {
+    padding: 0;
+    margin: 0px;
+}
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    padding: 0 10px;
+    color: #f0f8ff;
+}
+.main {
+    padding: 0 0 0 0;
+    background-color: #0C0E18;
+}
+.header-value ol li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-value ol li:nth-child(5)::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 4px;
+    background-color: #B3E96F;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.header-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-top: 80px;
+    padding-right: 10px;
+}
+.header-value ol {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 300px;
+    font-size:20px;
+}
+.header-value img {
+    padding-left: 270px;
+}
+.header-image {
+    padding: 0;
+}
+.main-content {
+    padding-left: 270px;
+}
+.main-content h4 {
+    font-size: 48px;
+    padding-top: 140px;
+    font-weight: normal;
+}
+.main-content p {
+    font-size: 20px;
+    padding: 10px 0 0 5px;
+}
+.main-content h2 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 40px;
+}
+.footer {
+    padding-left: 250px;
+    background-color: #07070B;
+    width: 100%;
+}
+.footer img {
+    padding-top: 3%;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+.footer p {
+    padding-top: 3%;
+    padding-left: 40%; /* Keep the same padding for alignment */
+    font-size: 20px;
+}
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Added gap for better spacing */
+}
+.footer-content p {
+    color: #ACACAC;
+}
+.footer-li a {
+    text-decoration: none;
+    color: #ACACAC;
+}
+.footer-li li {
+    list-style-type: none;
+    font-size: 20px;
+    color: #ACACAC;
+}
+.footer-li {
+    padding-left: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: flex-start; /* Keep elements aligned to the left */
+}
+.footer-li p {
+    color: #ACACAC;
+}
+.firstElement {
+    padding-top: 20px;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content {
+    display: flex; /* Применение Flexbox для выравнивания дочерних элементов в ряд */
+    align-items: flex-start; /* Выравнивание элементов по верхнему краю */
+    justify-content: space-around; /* Распределение элементов с пространством между ними */
+}
+.first-container {
+    margin: 10px; /* Небольшой отступ вокруг контейнеров */
+    flex: 1; /* Контейнеры займут равное пространство в контейнере Flex */
+    min-width: 0; /* Предотвращает выход контейнеров за пределы flex-контейнера */
+}
+.map {
+    padding-top: 0;
+    margin-top: 0;
+    width: 500px;
+    height: 400px; /* Фиксированные размеры для карты */
+    padding-top: 150px;
+}
+.contact-form {
+    padding-left: 270px;
+    padding-top: 50px;
+}
+.contact-form h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.contact-form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #B3E96F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width: 1000px) {
+
+.header-value ol {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 25%;
+}
+}
+@media (max-width: 722px) {
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    iframe{
+        width: 500px;
+    }
+}
+</style>

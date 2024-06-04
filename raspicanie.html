@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-image">
+        <div class="header-value">
+            <a href="index.html">
+                <img src="./assets/Logo.png">
+            </a>
+            <ol>
+                <li><a href="disciplines.html">Дисциплины</a></li>
+                <li><a href="cost.html">Цены</a></li>
+                <li><a href="raspicanie.html">Расписание</a></li>
+                <li><a href="aboutUs.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ol>
+        </div>
+    </div>
+    <div class="main-content">
+        <h4>Расписание тренировок</h4>
+        <div class="info-container">
+            <img src="./assets/raspicanie/box.png">
+            <p>Бокс<br>Понедельник, четверг, пятница<br>
+                09:00- 18:00<br><br>
+                Суббота - воскресенье<br> 
+                выходные</p>
+        </div>
+        <div class="info-containers">
+            <p>Тайский бокс<br>Понедельник, четверг, пятница<br>
+                09:00- 18:00<br><br>
+                Суббота - воскресенье<br> 
+                выходные</p>
+            <img src="./assets/raspicanie/tai.png">
+        </div>
+        <div class="info-container">
+            <img src="./assets/raspicanie/cambo.png">
+            <p>Самбо<br>Понедельник, четверг, пятница<br>
+                09:00- 18:00<br><br>
+                Суббота - воскресенье<br> 
+                выходные</p>
+        </div>
+        <div class="info-containers">
+            <p>Рукопашный бой<br>Понедельник, четверг, пятница<br>
+                09:00- 18:00<br><br>
+                Суббота - воскресенье<br> 
+                выходные</p>
+            <img src="./assets/raspicanie/rykopash.png">
+        </div>
+        <div class="info-container">
+            <img src="./assets/raspicanie/mma.png">
+            <p>ММА<br>Понедельник, четверг, пятница<br>
+                09:00- 18:00<br><br>
+                Суббота - воскресенье<br> 
+                выходные</p>
+        </div>
+        <div class="info-containers">
+            <p>Карате<br>Понедельник, четверг, пятница<br>
+                09:00- 18:00<br><br>
+                Суббота - воскресенье<br> 
+                выходные</p>
+            <img src="./assets/raspicanie/karate.png">
+        </div>
+        <div class="manager-text">
+            <h2>Работа менеджера для записи</h2>
+            <p>Понедельник - пятница<br>
+            9:00-18:00<br><br>
+            Суббота - воскресенье<br>
+            выходные
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <img src="./assets/footerLogo.png">
+            <p>Спортивная школа единоборств</p>
+        </div>
+        <div class="footer-li">
+            <ol>
+                <li><a href="disciplines.html">Дисциплины</a></li>
+                <li class="firstElement"><a href="/disciplines/box.html">Бокс</a></li>
+                <li><a href="/disciplines/taibox.html">Тайский бокс</a></li>
+                <li><a href="/disciplines/cambo.html">Самбо</a></li>
+                <li><a href="/disciplines/rykopashka.html">Рукопашный бой</a></li>
+            </ol>
+            <ol>
+                <li><a href="cost.html">Цены</a></li>
+                <li class="firstElement">Основные цены</li>
+                <li>Акции</li>
+            </ol>
+            <ol>
+                <li><a href="raspicanie.html">Расписание</a></li>
+                <li class="firstElement">Тренировки</li>
+                <li>Зал</li>
+            </ol>
+            <ol>
+                <li><a href="aboutUs.html">О нас</a></li>
+                <li class="firstElement">Инфо</li>
+                <li>Зал</li>
+            </ol>
+            <ol>
+                <li><a href="contact.html">Контакты</a></li>
+                <li class="firstElement">+7-952-568-13-13</li>
+                <li>punch@mail.com</li>
+            </ol>
+            <p>© 2024 Cпортивная школа единоборств</p>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    html{
+            background-color: #0C0E18;
+            padding-left: 0;
+        }
+        body{
+            padding: 0;
+            margin: 0px;
+        }
+        *{
+    font-family: "Montserrat", sans-serif ;
+    margin: 0;
+    padding: 0;
+    padding: 0 10px;
+   
+    color: #f0f8ff;
+            .main{
+                padding: 0 0 0 0;
+                background-color: #0C0E18;
+            }
+}
+    .header-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-top: 80px;
+    padding-right: 10px;
+}
+
+.header-value ol {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 300px;
+    font-size:20px;
+}
+.header-image{
+    padding: 0;
+}
+.header-value img{
+    padding-left: 270px;
+}
+.header-value ol li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.main-content {
+            padding-left: 270px;
+        }
+        .main-content h4 {
+            font-size: 46px;
+            padding: 100px 10px 0 0px;
+        }
+        .info-container, .info-containers {
+            display: flex;
+            padding-top: 100px;
+            font-size: 24px;
+        }
+        .info-container p, .info-containers p {
+            padding-left: 65px;
+            padding-top: 10px;
+        }
+        .info-containers img {
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        .manager-text h2 {
+            font-size: 46px;
+            padding: 90px 0 0 0;
+        }
+        .manager-text p {
+            font-size: 24px;
+            padding: 20px 0 0 0px;
+        }
+        .header-value ol li:nth-child(3)::after {
+            content: '';
+            display: block;
+            width: 150px;
+            height: 4px;
+            background-color: #B3E96F;
+            margin-top: 5px;
+            border-radius: 3px;
+        }
+        .footer {
+            padding-left: 250px;
+            background-color: #07070B;
+            width: 115%;
+        }
+        .footer img {
+            padding-top: 3%;
+        }
+        .footer p {
+            padding-top: 3%;
+            padding-left: 40%;
+            font-size: 20px;
+            color: #ACACAC;
+        }
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .footer-li a {
+            text-decoration: none;
+            color: #ACACAC;
+        }
+        .footer-li li {
+            list-style-type: none;
+            font-size: 20px;
+            color: #ACACAC;
+        }
+        .footer-li {
+            padding-left: 30px;
+            padding-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .footer-li p {
+            padding: 0 0 0 350px;
+            font-size: 20px;
+            color: #ACACAC;
+        }
+        .firstElement {
+            padding-top: 20px;
+        }
+    </style>

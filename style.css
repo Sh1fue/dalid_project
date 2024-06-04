@@ -1,0 +1,25 @@
+*{
+    font-family: "Montserrat", sans-serif ;
+    margin: 0;
+    padding: 0;
+    padding: 0 10px;
+    background-color: #0C0E18;
+    color: #f0f8ff;
+    font-weight:5100px;
+}
+.main{
+    padding-left: 230px;
+}
+.header-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.header-value ol {
+    list-style-type: none;
+    display: flex;
+    gap: 100px; /* или другое значение */
+}

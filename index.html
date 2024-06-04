@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-image">
+        <div class="header-value">
+            <a href="index.html">
+            <img src="./assets/Logo.png">
+        </a>
+            <ol>
+                <li> <a href="disciplines.html">Дисциплины</a></li>
+                <li><a href="cost.html">Цены</a></li>
+                <li><a href="raspicanie.html">Расписание</a></li>
+                <li><a href="aboutUs.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ol>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h4>Запись на тренировку</h4>
+                <form action="contact_form.php" method="post">
+                    <div class="request-info">
+                        <p>Имя и Фамилия</p>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="request-info">
+                        <p>Email</p>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="request-info">
+                        <p>Сообщение</p>
+                        <input type="message" name="email" required>
+                    </div>
+                    <button type="submit">Записаться</button>
+                </form>
+            </div>
+        </div>
+        <p>Школа единоборств
+            <br><b style="font-size: 46px;">PUNCH</b>
+        </p>
+        <div class="button">
+            <button class="signup-button" onclick="openModal()">Записаться</button>
+
+            <!-- Модальное окно -->
+    </div>
+    </div>
+    <div class="main-content">
+        <div class="types_sport">
+            <h4>Виды тренировок</h4>
+            <a href="/disciplines/box.html">
+            <img src="./assets/main/box.png">
+        </a>
+        <a href="/disciplines/taibox.html">
+            <img src="./assets/main/tai.png">
+        </a>
+        <a href="/disciplines/cambo.html">
+            <img src="./assets/main/cambo.png">
+        </a>
+        <a href="/disciplines/rykopashka.html">
+            <img src="./assets/main/rykopash.png">
+        </a>
+        <a href="/disciplines/mma.html">
+            <img src="./assets/main/mma.png">
+        </a>
+        <a href="/disciplines/karate.html">
+            <img src="./assets/main/karate.png">
+        </a>
+        </div>
+        <div class="about-us">
+            <h4>О нас</h4>
+            <p>Школа "Punch" представляет собой уникальное учебное заведение, где студенты могут изучать<br> различные виды единоборств, включая каратэ, тхэквондо, кикбоксинг, джиу-джитсу и многое<br> другое. Мы предлагаем обширную программу обучения для всех возрастов и уровней<br> подготовки, от начинающих до профессионалов.
+                <br>
+                <br>
+              
+                Наши инструкторы имеют многолетний опыт в области единоборств и обеспечивают<br> индивидуальный подход к каждому ученику. Мы стремимся не только развивать физические<br> навыки, но и формировать дисциплину, самоконтроль и уверенность в себе.</p>
+                <div class="more-info">
+
+                    <h2>Хотите узнать больше?</h2>
+                    <p>Позвоните по номеру +7-952-568-13-13<br>
+                    или оставьте заявку</p>
+                    <button class="signup-button" onclick="openModal()">Записаться</button>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <br>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+
+        
+        <img src="./assets/footerLogo.png">
+        <p>Спортивная школа единоборств</p>
+            </div>
+
+            <div class="footer-li">
+                <ol>
+                    <li> <a href="disciplines.html">Дисциплины</a></li>
+                    <li class="firstElement"> <a href="/disciplines/box.html">Бокс</a></li>
+                    <li><a href="/disciplines/taibox.html">Тайский бокс</a></li>
+                    <li><a href="/disciplines/cambo.html">Самбо</a></li>
+                    <li><a href="/disciplines/rykopashka.html">Рукопашный бой</a></li>
+                    
+                </ol>
+                <ol>
+                    <li><a href="cost.html"> Цены</a></li>
+                    <li class="firstElement">Основные цены</li>
+                    <li>Акции</li>
+                </ol>
+                <ol>
+                    <li><a href="raspicanie.html"> Расписание</a></li>
+                    <li class="firstElement">Тренировки</li>
+                    <li>Зал</li>
+                </ol>
+                <ol>
+                    <li><a href="aboutUs.html"> О нас</a></li>
+                    <li class="firstElement">Инфо</li>
+                    <li>Зал</li>
+                </ol>
+                <ol>
+                    <li><a href="contact.html"> Контакты</a></li>
+                    <li class="firstElement">+7-952-568-13-13</li>
+                    <li>punch@mail.com</li>
+                </ol>
+                <p>© 2024 Cпортивная школа единоборств</p>        
+            </div>
+        </div>
+</body>
+</html>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+    }
+    *{
+    font-family: "Montserrat", sans-serif ;
+    margin: 0;
+    padding: 0;
+    color: #f0f8ff;
+
+}
+    .header-image{
+        background-image: url('./assets/background.png');
+        max-width: 100%;
+        height: 1080px;
+    }
+    .header-value { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-top: 80px;
+    padding-right: 10px;
+}
+
+.header-value ol {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    margin-right: 300px;
+    font-size:20px;
+}
+.header-value img{
+    padding-left: 270px;
+}
+.header-value ol li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-image P{
+    padding: 550px 0 0 270px;
+    font-size: 64px;
+}
+.signup-button {                                                                                                                                                                              
+    background-color: #B3E96F; 
+    color: rgb(0, 0, 0); 
+    padding: 20px 40px;
+    border: none; 
+    border-radius: 5px; 
+    font-size: 30px; 
+    cursor: pointer; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.signup-button:hover {
+    background-color: #B3E96F; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+.button{
+    padding-left: 270px;
+    
+}
+.main-content {
+    background-color: #0C0E18;
+    padding: 100px 0 0 270px
+
+}
+    .types_sport{
+        font-size: 46px;
+        padding-top: 30px;
+    }
+    .types_sport a img{
+        list-style-type: none;
+        
+    }
+    .about-us{
+        padding-top: 40px;
+    }
+    .about-us h4{
+        font-size: 46px;
+        font-weight: normal;
+    }
+    .about-us p{
+        padding: 20px 0 0 0 ;
+        font-size: 24px;
+    }
+    .more-info{
+        background-image: url('/assets/Rectangle\ 17.png');
+        max-width: 80%;
+        height: 300px;
+        border-radius: 15px;
+        padding-left: 30px;
+        margin-top: 100px   ;
+    }
+    .more-info h2{
+        font-size: 46px;
+        padding: 50px 0 0 0px;
+    }
+    .footer{
+        padding-left: 270px;
+        background-color: #07070B;
+        max-width: 100%;
+        height: 420px;
+    }
+    .footer img{
+        padding-top: 3%;
+    }
+    .footer p{
+        padding-top: 3%;
+        padding-left: 600px;
+        font-size: 20px;
+    }
+    .footer-content{
+        display: flex;
+        flex-wrap: wrap;
+    }   
+    .footer-content p{
+        color:#ACACAC ;
+    }
+    
+    .footer-li a{
+        text-decoration: none;
+        color: #ACACAC;
+        
+    }
+    .footer-li li{
+        list-style-type: none;
+        font-size: 20px;
+        color: #ACACAC;
+    }
+    .footer-li{
+        padding-left: 50px;
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap ;
+        gap: 90px;
+    }
+    .footer-li p{
+        color: #ACACAC;
+        padding: 0 0 0 350px;
+    }
+    .firstElement{
+        padding-top: 20px;
+    }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .modal-content {
+    background-color: #0C0E18;
+    margin: 15% auto;
+    padding: 20px;
+    width: 200px;
+    height: 500px;
+    border: 1px solid #888;
+    border-radius: 15px;
+    width: 80%;
+    box-sizing: border-box; 
+  }
+  .modal-content h4 {
+    padding-top: 10px;
+    padding-left: 280px;
+    font-size: 64px;
+  }
+  .modal-content p{
+    padding-top: 20px;
+    font-size: 24px;
+    padding-left: 280px;
+  }
+  .modal-content input{
+    width: 650px;
+    height: 47px;
+    padding-top: 20px;
+    margin-left: 280px;
+    border: 3px white solid;
+    background-color: #0C0E18;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-content button{
+    background-color: #B3E96F; 
+    color: rgb(0, 0, 0); 
+    padding: 20px 40px;
+    border: none; 
+    border-radius: 5px; 
+    font-size: 30px; 
+    cursor: pointer; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-left: 460px;
+    margin-top: 30px;
+  }
+  .modal-content button:hover{
+    background-color: #B3E96F; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* Tablets */
+@media (max-width: 768px) {
+    .header-image {
+        height: 600px;
+    }
+    .header-value img {
+        padding-left: 50px;
+    }
+    .header-image p {
+        padding: 350px 0 0 50px;
+        font-size: 32px;
+    }
+    .header-value ol {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        margin-right: 0;
+    }
+    .button {
+        padding-left: 50px;
+    }
+    .main-content {
+        padding: 50px 20px;
+    }
+    .about-us p, .more-info h2, .more-info p {
+        font-size: 18px;
+    }
+    .footer {
+        padding: 50px 20px;
+        height: auto;
+    }
+    .footer p {
+        padding-left: 0;
+        text-align: center;
+    }
+    .footer-li {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-li p {
+        padding-left: 0;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+    .header-image {
+        height: 300px;
+    }
+    .header-value img {
+        margin-left: -20px;
+        width: 150px;
+    }
+    .header-image p {
+        padding: 200px 0 0 20px;
+        font-size: 24px;
+    }
+    .signup-button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .types_sport {
+        font-size: 24px;
+    }
+    .about-us h4, .more-info h2 {
+        font-size: 24px;
+    }
+    .about-us p, .more-info p {
+        font-size: 16px;
+    }
+    .footer {
+        padding: 20px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+    .types_sport img{
+        width: 150px;
+    }
+}
+@media (min-width: 700px) and (max-width: 1050px) {
+    .header-image {
+        min-width: 100%;
+        height: 700px; /* Адаптация высоты заголовочного изображения */
+    }
+    .header-value img {
+        padding-left: 50px; /* Коррекция положения логотипа */
+        width:150px
+    }
+    .header-image p {
+        padding: 300px 0 0 50px; /* Коррекция положения и размера текста в заголовке */
+        font-size: 40px; /* Уменьшенный размер шрифта для заголовка */
+    }
+    .header-value ol {
+        gap: 10px;
+        padding: 20px;
+    }
+    .header-value li{
+        padding-top: 0px;
+        font-size: 17px;
+    }
+    .header-value p{
+        padding: 0px 20px 0px 0px;
+    }
+    .button {
+        padding-left: 50px; /* Коррекция положения кнопки */
+    }
+    .main-content {
+        padding: 60px 30px; /* Паддинг для основного содержимого */
+    }
+    .types_sport {
+        font-size: 30px; /* Уменьшенный размер шрифта для заголовков разделов */
+    }
+    .types_sport img{
+        width: 40%;
+    }
+    .about-us p, .more-info h2, .more-info p {
+        font-size: 20px; /* Уменьшенные размеры шрифтов в разделе 'О нас' */
+    }
+    .footer {
+        padding: 40px 40px; /* Паддинг для футера */
+        height: auto; /* Автоматическая высота футера */
+    }
+    .footer p {
+        text-align: center; /* Центрирование текста в футере */
+        font-size: 16px; /* Уменьшенный размер шрифта текста футера */
+    }
+    .footer-li {
+        flex-direction: column; /* Вертикальное расположение элементов футера */
+        gap: 20px; /* Расстояние между элементами */
+    }
+}
+@media (max-width: 1205px) {
+    .header-image {
+        height: 700px; /* Адаптация высоты заголовочного изображения */
+    }
+    .header-value img {
+        padding-left: 50px; /* Коррекция положения логотипа */
+    }
+    .header-image p {
+        padding: 300px 0 0 50px; /* Коррекция положения и размера текста в заголовке */
+        font-size: 40px; /* Уменьшенный размер шрифта для заголовка */
+    }
+    .header-value ol {
+        flex-direction: column; /* Элементы меню в вертикальной колонке */
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        margin-right: 20px;
+    }
+    .button {
+        padding-left: 50px; /* Коррекция положения кнопки */
+    }
+    .main-content {
+        padding: 60px 30px; /* Паддинг для основного содержимого */
+    }
+    .types_sport {
+        padding-top: 80px;
+        font-size: 30px; /* Уменьшенный размер шрифта для заголовков разделов */
+    }
+    .about-us p, .more-info h2, .more-info p {
+        font-size: 20px; /* Уменьшенные размеры шрифтов в разделе 'О нас' */
+    }
+    .footer {
+        padding: 40px 40px; /* Паддинг для футера */
+        height: auto; /* Автоматическая высота футера */
+    }
+    .footer p {
+        text-align: center; /* Центрирование текста в футере */
+        font-size: 16px; /* Уменьшенный размер шрифта текста футера */
+    }
+    .footer-li {
+        flex-direction: column; /* Вертикальное расположение элементов футера */
+        gap: 20px; /* Расстояние между элементами */
+    }
+}
+</style>
+<script>
+    // Функция для открытия модального окна
+    function openModal() {
+      document.getElementById('myModal').style.display = "block";
+    }
+  
+    // Функция для закрытия модального окна
+    function closeModal() {
+      document.getElementById('myModal').style.display = "none";
+    }
+  
+    // Закрыть модальное окно при клике вне его контента
+    window.onclick = function(event) {
+      var modal = document.getElementById('myModal');
+      if (event.target == modal) {
+        closeModal();
+      }
+    }
+  </script>
